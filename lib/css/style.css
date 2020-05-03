@@ -1,0 +1,411 @@
+nav{
+width:100%;
+
+
+position: absolute;
+}
+nav ul{
+    float: left;
+}
+nav li{
+    padding: 2px 5px;
+}
+label [for="bt_menu"]{
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    width: 50px;
+    width:50px;
+}
+#menu{
+   padding: 1px 7px;
+   border:#899da0 1px solid;
+   border-radius: 5px;
+   color: #899da0;
+   
+}
+
+#menu:hover{
+    border: white 1px solid;
+   border-radius: 5px;
+   color: white;
+}
+
+
+
+
+
+
+a{
+    font-size: 12pt;
+}
+#bg-work{
+    width:100%;
+    height:60%;
+    
+    background-image: url(../img/bg_work1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    
+    object-fit: cover; 
+
+}
+
+#titulo{
+    padding-top: 16%;
+    padding-bottom: 25%;
+    
+}
+#titulo i{
+    text-align: center;
+    color:#ffffff;
+    font-size: 35pt;
+    align-items: center;
+    
+}
+#titulo li{
+    float: left;
+    display: block;
+    
+}
+#icones{
+    
+    width:100%;
+    height:50px;
+    text-align: center;
+}
+#icones p{
+    
+   
+    text-align: center;
+}
+
+
+
+#linkedin:hover{
+    color:#0077b5;
+    background-color: white;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 5px 5px;
+    
+    
+
+}
+#whatsapp:hover{
+    
+    background-color:#1ebea5;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 5px 5px;
+    
+}
+#git:hover{
+    
+    background-color:#24292e;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 5px 5px;
+    
+
+}
+#t1{
+    color:white;
+    font-family: 'Segoe UI Historic';
+    font-weight: bold;
+    font-size: 5em;
+    position: relative;
+    text-align: center;
+    
+}
+#t2{
+    text-align: center;
+    color:#ffffff;
+    font-family: 'Segoe UI Historic';
+    font-size: 25pt;
+    position: relative;
+    
+}
+#foto1{
+    width: 200px;
+    height:200px;
+    margin-top: -92px;
+    background-size: cover;
+    position: relative;
+    border-radius: 100%;
+    border:8px solid;
+    border-color:#ffffff;
+    align-items: center;
+    background-image: url(../img/foto3x4.jpg);
+    
+}
+
+
+#formacao{
+    margin-top: 02%;
+    margin-bottom: 20%;
+    
+}
+    
+#formacao_1{
+    padding: 05%;
+    margin-top: 05%;
+    font-size: 15pt;
+    padding-bottom: 05%;
+    border-color:lightgrey;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    
+   
+}
+
+#formacao_1 h3{
+    margin-bottom: 2px;
+   
+}
+
+#teste{
+    padding: 02%;
+    margin: 02%;
+    border-color:lightgrey;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 12pt;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+
+}
+#teste i {
+    font-size: 25pt;
+}
+#teste p{
+    font-size: 15pt;
+}
+#faculdade1{
+ padding:02%;
+   
+}
+#faculdade1 h5{
+text-align: center;
+}
+
+#faculdade1 p{
+    text-align: center;
+    margin-bottom: 0px;
+}
+#formacao h3{
+    margin-bottom: 1px;
+    text-align: left;
+}
+#formacao_1 h4{
+    text-align: center;
+    font-weight: bold;
+    
+    
+
+}
+#fundo1{
+    width:100%;
+    height:900px;
+    background-image: url(../img/bg_work2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+hr{
+    width: 270px;
+    height: 5px;
+    background-color: #a90537;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+#logouni9{
+    margin-bottom: 02%;
+    background-image: url(../img/logoUni9.jpg)  ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    border-radius: 100%;
+    border:4px solid ;
+    border-color:lightgrey;
+}
+#qualificacao{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    position: relative;
+}
+#fundo2{
+    margin-top: 02%;
+    margin-bottom: 02%;
+}
+#fundo3{
+    width:100%;
+    height:50%;
+   background-image: url(../img/work3.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-top: 02%;
+   padding-bottom: 02%;
+}
+#cursosComplementares{
+    border-color:lightgrey;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 05%;
+    
+}
+
+#cursosComplementares h3{
+    margin-bottom: 2px;
+}
+#cursosComplementares hr{
+    width: 312px;
+    margin-bottom: 05%;
+}
+#cursosComplementares .col-md-8 {
+    
+    margin: 02% ;
+    
+}
+
+#qualificacao h3{
+    
+   margin-bottom: 2px;
+    
+}
+#qualificacao hr{
+    
+    width: 173px;
+    margin-top: 0px;
+    
+}
+#rowQuali h5{
+    
+    text-align: center;
+    
+}
+#rowQuali{
+    margin-top:02;
+    padding: 0%;
+    margin-left: 02%;
+    margin-right: 02%;
+}
+#fundo4{
+margin-top: 02%;
+margin-bottom: 07%;
+
+}
+#fundo4 h3{
+padding-top:02%;
+margin-bottom: 2px;
+}
+#fundo4 hr{
+    margin-top: 0px;
+    margin-bottom: 02%;
+    width: 300px;
+}
+#fundo4 h4{
+    margin-left: 02%;
+    padding-bottom: 02%;
+    
+}
+#bolinha{
+  
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #a90537;
+    position: relative;
+    margin: 0 auto;
+}
+#stick{
+    margin-left: 4px;
+    width:2px;
+    height:200px;
+    background-color: #a90537;
+}
+#tempo{
+   
+    width:200px;
+    float:left;
+    margin-left: 30px;
+    padding-left: 20px;
+    
+    
+}
+#tempo ul{
+    float: left;
+    
+}
+#stick #texto{
+    float: left;
+    width:500px;
+    margin-left: 10px;
+    
+}
+
+#tempo2 h5{
+    width:200px;
+    float: right;
+    margin-right: 02%;
+    padding-right: 02%;
+}
+#stick2{
+    margin-left: 4px;
+    width:2px;
+    height:238px;
+    background-color: #a90537;
+}
+#stick2 #texto{
+    float: right;
+    width:500px;
+    margin-right: 10px;
+    text-align: right;
+    
+}
+#stick3{
+    margin-left: 4px;
+    width:2px;
+    height:260px;
+    background-color: #a90537;
+}
+#stick3 #texto{
+    float: left;
+    width:500px;
+    margin-left: 10px;
+    
+    
+}
+
+#fundo5{
+    padding-top: 02%;
+    width:100%;
+    height:500px;
+   background-image: url(../img/work4.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+#downloadCurriculo{
+    
+    border-color:lightgrey;
+    background-color: gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 05%;
+    text-align: center;
+    margin-top: 08%;
+    
+    
+}
+#downloadCurriculo span{
+    color: white;
+    }
+#downloadCurriculo input{
+margin: 02%;
+}
