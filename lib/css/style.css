@@ -1,22 +1,20 @@
+
 nav{
 width:100%;
 
 
 position: absolute;
 }
+
 nav ul{
     float: left;
+    padding: 5px;
 }
+
 nav li{
     padding: 2px 5px;
 }
-label [for="bt_menu"]{
-    padding: 5px;
-    text-align: center;
-    cursor: pointer;
-    width: 50px;
-    width:50px;
-}
+
 #menu{
    padding: 1px 7px;
    border:#899da0 1px solid;
@@ -314,6 +312,7 @@ margin-bottom: 2px;
 #fundo4 h4{
     margin-left: 02%;
     padding-bottom: 02%;
+    padding-top: 02%;
     
 }
 #bolinha{
@@ -330,6 +329,7 @@ margin-bottom: 2px;
     width:2px;
     height:200px;
     background-color: #a90537;
+    margin: 0 auto;
 }
 #tempo{
    
@@ -362,6 +362,7 @@ margin-bottom: 2px;
     width:2px;
     height:238px;
     background-color: #a90537;
+    margin: 0 auto;
 }
 #stick2 #texto{
     float: right;
@@ -375,11 +376,13 @@ margin-bottom: 2px;
     width:2px;
     height:260px;
     background-color: #a90537;
+    margin: 0 auto;
 }
 #stick3 #texto{
     float: left;
     width:500px;
     margin-left: 10px;
+
     
     
 }
@@ -390,7 +393,7 @@ margin-bottom: 2px;
     height:500px;
    background-image: url(../img/work4.jpg);
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: 100%;
 }
 #downloadCurriculo{
     
@@ -408,4 +411,73 @@ margin-bottom: 2px;
     }
 #downloadCurriculo input{
 margin: 02%;
+}
+@media(max-width:800px){
+    #t1{ font-size:2em}
+    #t2{ font-size:1em}
+
+    #foto1{
+        width: 100px;
+        height:100px;
+        border: 2px solid white;
+        margin-top: -53px;
+    }
+    #titulo i{
+    font-size: 20pt;
+    }
+
+    #cursosComplementares h3{
+        font-size: 18pt;
+    }
+    #cursosComplementares hr{
+        width:266px;
+    }
+    #cursosComplementares .col-md-8 {
+        margin: 02%;
+        font-size: 10pt;
+        text-align: center;
+    }
+
+    #bolinha{
+        margin:initial;
+    }
+    #stick {
+        margin: initial;
+        margin-left: 4px;
+    }
+    #stick2{
+        margin: initial;
+        margin-left: 4px;
+    }
+    #stick3{
+        margin: initial;
+        margin-left: 4px;
+    }
+    #stick #texto {
+        float: left;
+        width: 300px;
+        margin-left: 10px;
+        text-align: left;
+        font-size: 12px;
+    }
+    #stick2 #texto {
+        float: left;
+        width: 300px;
+        margin-left: 10px;
+        text-align: left;
+        font-size: 12px;
+    }
+    #stick3 #texto {
+        float: left;
+        width: 300px;
+        margin-left: 10px;
+        text-align: left;
+        font-size: 12px;
+    }
+    #tempo2 h5 {
+        width: 200px;
+        float: left;
+        margin-left: 12px;
+        /* padding-right: 02%; */
+    }
 }

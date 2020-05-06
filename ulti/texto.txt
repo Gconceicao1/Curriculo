@@ -1,0 +1,21 @@
+-Dados Pessoais
+Nome
+Cidade 
+Estado
+Email
+Linkedin
+Guthub
+
+- objetivo
+- resumo
+- conhecimentos solidos
+- Demais cursos (complementares)
+- Exeperiências 
+
+- Empresa
+Site
+cargo
+Atividades
+Periodo
+
+Portifólio 
