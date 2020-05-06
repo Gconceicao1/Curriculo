@@ -335,7 +335,7 @@ margin-bottom: 2px;
    
     width:200px;
     float:left;
-    margin-left: 30px;
+    
     padding-left: 20px;
     
     
@@ -426,12 +426,48 @@ margin: 02%;
     font-size: 20pt;
     }
 
+    #formacao_1 h3 {
+        margin-bottom: 2px;
+        text-align: center;
+    }
+    #formacao_1 hr {
+        margin: 0 auto;
+    }
+    #faculdade1 {
+        padding: 7%;
+    }
+    #qualificacao h3 {
+        text-align: center;
+    }
+    #qualificacao hr{
+        margin: 0 auto;
+        margin-bottom: 12px;
+    }
     #cursosComplementares h3{
         font-size: 18pt;
+        text-align: center;
     }
     #cursosComplementares hr{
         width:266px;
+        margin: 0 auto;
+        margin-bottom: 12px ;
     }
+    #fundo4 h4 {
+        margin-left: 14%;
+        padding-bottom: 02%;
+        padding-top: 02%;
+        text-align: center;
+    }
+
+    #fundo4 h3{
+        text-align: center;
+    }
+    #fundo4 hr{
+        margin: 0 auto;
+        margin-bottom: 02%;
+
+    }
+
     #cursosComplementares .col-md-8 {
         margin: 02%;
         font-size: 10pt;
