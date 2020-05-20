@@ -1,14 +1,13 @@
 
 nav{
 width:100%;
-
-
-position: absolute;
+position: relative;
 }
 
 nav ul{
     float: left;
     padding: 5px;
+    font-size: 16pt;
 }
 
 nav li{
@@ -29,54 +28,41 @@ nav li{
    color: white;
 }
 
-
-
-
-
-
 a{
     font-size: 12pt;
 }
 #bg-work{
     width:100%;
-    height:60%;
-    
+    height:60%;  
     background-image: url(../img/bg_work1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    
-    
+    position: relative;  
     object-fit: cover; 
 
 }
 
 #titulo{
     padding-top: 16%;
-    padding-bottom: 25%;
-    
+    padding-bottom: 25%;   
 }
 #titulo i{
     text-align: center;
     color:#ffffff;
     font-size: 35pt;
-    align-items: center;
-    
+    align-items: center; 
 }
 #titulo li{
     float: left;
     display: block;
     
 }
-#icones{
-    
+#icones{ 
     width:100%;
     height:50px;
     text-align: center;
 }
 #icones p{
-    
-   
     text-align: center;
 }
 
@@ -88,26 +74,18 @@ a{
     border-radius: 10%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 5px 5px;
-    
-    
-
 }
 #whatsapp:hover{
-    
     background-color:#1ebea5;
     border-radius: 10%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 5px 5px;
-    
+    padding: 5px 5px;   
 }
 #git:hover{
-    
     background-color:#24292e;
     border-radius: 10%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 5px 5px;
-    
-
 }
 #t1{
     color:white;
@@ -115,8 +93,7 @@ a{
     font-weight: bold;
     font-size: 5em;
     position: relative;
-    text-align: center;
-    
+    text-align: center;  
 }
 #t2{
     text-align: center;
@@ -124,7 +101,6 @@ a{
     font-family: 'Segoe UI Historic';
     font-size: 25pt;
     position: relative;
-    
 }
 #foto1{
     width: 200px;
@@ -136,15 +112,12 @@ a{
     border:8px solid;
     border-color:#ffffff;
     align-items: center;
-    background-image: url(../img/foto3x4.jpg);
-    
+    background-image: url(../img/foto3x4.jpg); 
 }
-
 
 #formacao{
     margin-top: 02%;
-    margin-bottom: 20%;
-    
+    margin-bottom: 20%;  
 }
     
 #formacao_1{
@@ -156,13 +129,10 @@ a{
     background-color: #ffffff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: relative;
-    
-   
 }
 
 #formacao_1 h3{
-    margin-bottom: 2px;
-   
+    margin-bottom: 2px; 
 }
 
 #teste{
@@ -173,11 +143,9 @@ a{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-size: 12pt;
     text-align: center;
-
     display: flex;
     flex-direction: column;
     justify-content: center ;
-
 }
 #teste i {
     font-size: 25pt;
@@ -204,9 +172,6 @@ text-align: center;
 #formacao_1 h4{
     text-align: center;
     font-weight: bold;
-    
-    
-
 }
 #fundo1{
     width:100%;
@@ -267,27 +232,19 @@ hr{
     width: 312px;
     margin-bottom: 05%;
 }
-#cursosComplementares .col-md-8 {
-    
-    margin: 02% ;
-    
+#cursosComplementares .col-md-8 {  
+    margin: 02% ; 
 }
 
-#qualificacao h3{
-    
+#qualificacao h3{ 
    margin-bottom: 2px;
-    
 }
 #qualificacao hr{
-    
     width: 173px;
     margin-top: 0px;
-    
 }
 #rowQuali h5{
-    
-    text-align: center;
-    
+    text-align: center; 
 }
 #rowQuali{
     margin-top:02;
@@ -335,14 +292,10 @@ margin-bottom: 2px;
    
     width:300px;
     float:left;
-    
-    padding-left: 20px;
-    
-    
+    padding-left: 20px; 
 }
 #tempo ul{
     float: left;
-    
 }
 #stick #texto{
     float: left;
@@ -381,10 +334,7 @@ margin-bottom: 2px;
 #stick3 #texto{
     float: left;
     width:500px;
-    margin-left: 10px;
-
-    
-    
+    margin-left: 10px;  
 }
 
 #fundo5{
@@ -395,16 +345,13 @@ margin-bottom: 2px;
    background-repeat: no-repeat;
    background-size: 100%;
 }
-#downloadCurriculo{
-    
+#downloadCurriculo{ 
     border-color:lightgrey;
     background-color: gray;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 05%;
     text-align: center;
-    margin-top: 08%;
-    
-    
+    margin-top: 08%;  
 }
 #downloadCurriculo span{
     color: white;
@@ -412,7 +359,33 @@ margin-bottom: 2px;
 #downloadCurriculo input{
 margin: 02%;
 }
+
+#back-top{
+    
+    background-size: cover;
+    
+    
+
+}
+#back-top img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+#back-top img:hover{
+    background-color: gray;
+}
+
+
+
 @media(max-width:800px){
+    
     #t1{ font-size:2em}
     #t2{ font-size:1em}
 
@@ -424,6 +397,11 @@ margin: 02%;
     }
     #titulo i{
     font-size: 20pt;
+    }
+    #back-top img{
+        width: 15px;
+        height: 15px;
+        bottom: 5px;
     }
 
     #formacao_1 h3 {

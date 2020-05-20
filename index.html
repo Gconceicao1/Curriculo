@@ -7,78 +7,59 @@
     <link rel="stylesheet" href="lib/css/style.css">
     <link rel="shortcut icon" href="lib/img/favicon.ico">
     <link rel="stylesheet" href="lib/node_modules/@fortawesome/fontawesome-free/css/all.css">
-
-    
-
-
-
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  
-<title>Curriculum Vitae </title>
+    <Script src="lib/bootstrap/dist/js/bootstrap.min.js"></Script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/scriptCurriculo.js"></script>
+<title>Curriculum Vitae</title>
 </head>
 <body>
-    
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
-
+    <div id="bg-work">  
+    <nav class="navbar navbar-expand-lg navbar-dark " id="navbar">
         <a class="navbar-brand" href="#"><img src="lib/img/logoG1.png" alt="" width="35" height="35"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" >
           <span class="navbar-toggler-icon"></span> 
         </button>
-
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item ">
+            <li class="nav-item">
               <a class="nav-link" href="#formacao_1">Formação Acadêmica</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Qualificações</a>
+              <a class="nav-link" href="#qualificacao">Qualificações</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Cursos Complementares</a>
+              <a class="nav-link" href="#cursosComplementares">Cursos Complementares</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Experiência profissional</a>
+                <a class="nav-link" href="#experiencia">Experiência profissional</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">download do Currículo</a>
+                <a class="nav-link" href="#downloadCurriculo">Download do Currículo</a>
             </li>
           </ul>
         </div>
       </nav>
-
-    
-            <div id="bg-work">
-               
-                     <div  id="titulo" >
-                    
+                   
+                     <div  id="titulo" >              
                         <p class="mx-auto" id="t1">Gabriel de Moraes Domingues Conceição </p>
                         <p class="mx-auto" id="t2">Analista de Sistemas</p>
-
-                        <div id="icones" class="mx-auto" >
-                           
-                            
+                        <div id="icones" class="mx-auto" >                    
                                     <a href="https://api.whatsapp.com/send?phone=5511964654644" target="_blank">
-                                        <i class="fab fa-whatsapp mr-3" id="whatsapp"></i></a>
-                               
+                                        <i class="fab fa-whatsapp mr-3" id="whatsapp"></i></a>                            
                                     <a href="https://www.linkedin.com/in/gabriel-de-moraes-domingues-concei%C3%A7%C3%A3o-92b8011a7/" target="blank">
-                                        <i class="fab fa-linkedin mr-3" id="linkedin"></i></a>
-                                
+                                        <i class="fab fa-linkedin mr-3" id="linkedin"></i></a>                           
                                     <a href="https://github.com/Gconceicao1" target="_blank">
                                         <i class="fab fa-github mr-3 " id="git"></i>
-                                     </a>
-                             
+                                     </a>                           
                         </div>
-                    </div>
-               
+                    </div>   
             </div> 
-            
             <div id="fundo1">
                 <div id="foto1" class="mx-auto"></div>
                 <div class="container" >
-
                     <div id="formacao_1">
-                        
                             <h3>Formação Acadêmica</h3>
                              <hr>
                             <div class="row">
@@ -88,96 +69,60 @@
                                     <p>Universidade Nove de Julho </p>
                                     <p>Concluído (06/2019)</p>
                                 </div>
-
                                 <div class="col-md-6" id="faculdade1">
                                     <div id="logouni9" class="mx-auto"></div>
                                     <h5>Bacharel em Sistemas de Informação </h5>
                                     <p>Universidade Nove de Julho</p>
                                     <p>Cursando (previsão de término - 12/2021)</p>
                                 </div>
-
                             </div>
                         </div>
-                           
                     </div>
-                  
                     </div>
                 </div>
             </div>
 
-
-        
         <div id="fundo2">
             <div class="container" >
-
-            <div  id="qualificacao">
-
-                <h3 >Qualificações</h3>
-                <hr >
-           
-            
-                <div class="row" id="rowQuai">
-                
+                <div  id="qualificacao">
+                    <h3 >Qualificações</h3>
+                    <hr >
+                <div class="row" id="rowQuai">   
                     <div class="col-md-3 mx-auto" id="teste">
-                        <i class="fas fa-code"></i><p class="align-middle">Linguagem computacional: C++, C#, Java Script, Java Web, PHP, Python</p>
-                    
-                       
+                        <i class="fas fa-code"></i><p class="align-middle">Linguagem computacional: C++, C#, Java Script, Java Web, PHP, Python</p>            
                     </div>
                     <div class="col-md-3 mx-auto" id="teste">
-                        
-                        <i class="fab fa-bootstrap"></i> <span class="align-middle">Bootstrap 4</span>
-                       
+                        <i class="fab fa-bootstrap"></i>Bootstrap 4
                     </div>
-                    <div class="col-md-3 mx-auto" id="teste">
-                        
-                        <i class="fas fa-database"></i>	<p class="text-center"> Banco de dados: MySQL, Microsoft SQL Server</p>
-                       
+                    <div class="col-md-3 mx-auto" id="teste">     
+                        <i class="fas fa-database"></i>	<p class="text-center"> Banco de dados: MySQL, Microsoft SQL Server</p>        
                     </div>
                 </div>
                 <div class="row"id="rowCursos">
-                    <div class="col-md-3 mx-auto"id="teste">
-                        
-                        <i class="fas fa-table"></i>	 Modelagem de banco de dados
-                        
+                    <div class="col-md-3 mx-auto"id="teste">      
+                        <i class="fas fa-table"></i>Modelagem de banco de dados      
+                    </div>
+                    <div class="col-md-3 mx-auto"id="teste">    
+                        <i class="fab fa-microsoft"></i>Azure DEVOPS (desenvolvimento de Backlog, utilização do kamban)   
                     </div>
                     <div class="col-md-3 mx-auto"id="teste">
-                        
-                        <i class="fab fa-microsoft"></i>	 Azure DEVOPS (desenvolvimento de Backlog, utilização do kamban)
-                        
+                        <i class="fas fa-code-branch"></i>Versionamento GIT                      
                     </div>
-                    <div class="col-md-3 mx-auto"id="teste">
-                        
-                        <i class="fas fa-code-branch"></i>	 Versionamento GIT
-                        
-                    </div>
-
                 </div>
                 <div class="row"id="rowCursos">
-                    <div class="col-md-3 mx-auto"id="teste">
-                        
-                        <i class="fas fa-pencil-alt"></i>  	 Prototipação de software (Adobe XD)
-                        
+                    <div class="col-md-3 mx-auto"id="teste">  
+                        <i class="fas fa-pencil-alt"></i>Prototipação de software (Adobe XD)
                     </div>
-                    <div class="col-md-3 mx-auto"id="teste">
-                        
-                        <i class="fas fa-route"></i>	 Desenvolvimento de Fluxogramas (Bizagi Modeler
-                        
+                    <div class="col-md-3 mx-auto"id="teste">  
+                        <i class="fas fa-route"></i>Desenvolvimento de Fluxogramas (Bizagi Modeler)  
                     </div>
-                    <div class="col-md-3 mx-auto"id="teste">
-                        
-                        <i class="fas fa-undo"></i>	 Metodologia SCRUM
-                        
+                    <div class="col-md-3 mx-auto"id="teste"> 
+                        <i class="fas fa-undo"></i>	 Metodologia SCRUM        
                     </div>
-
                 </div>
             </div> 
-        
         </div>
-
-
         <div id="fundo3">
-
-            
             <div class="container">
                 <div class="col-md-12"id="cursosComplementares">
                     <h3>Cursos Complementares</h3>
@@ -197,26 +142,21 @@
                         <div class="col-md-8 " >
                             HTML 5, Java Script, CSS – Udemy - (Cursando)
                         </div>
-                        
                     </div>
-
                     <div class="row">
                         <div class="col-md-2">
-                            <img src="lib/img/unitiy_logo.png" width="130" height="50" alt="" class="rounded mx-auto d-block" >
+                            <img src="lib/img/unitiy_logo.png" width="140" height="50" alt="" class="rounded mx-auto d-block" >
                         </div>
                         <div class="col-md-8 " >
                             Desenvolvimento Unity 2D -  Udemy - (Cursando)
-                        </div>
-                        
+                        </div>  
                     </div>
                 </div>
-
             </div>
-
-
         </div>
         <div id="fundo4">
             <div class="container">
+                <div id="experiencia">
                 <h3>Experiência profissional</h3>
                 <hr>
                  <div class="row" >
@@ -224,14 +164,11 @@
                         <a href="https://www.fcc.org.br/fcc/" target="_blank">
                         <img src="lib/img/logofcc.jpg" width="150px" height="50px" alt="Fundação Carlos Chagas" >
                         </a>
-                    </h4>
-                        
+                    </h4>               
                  </div>
                  <div id="bolinha">
-                    <div id="tempo"class="mx-auto"><h5>(01/2017 - 11/2017)</h5></div>
-                    
-                 </div>
-                 
+                    <div id="tempo"class="mx-auto"><h5>(01/2017 - 11/2017)</h5></div>           
+                 </div>         
                  <div id="stick">
                      <div id="texto">
                         <b>Cargo</b>: Jovem Aprendiz <br>
@@ -241,7 +178,6 @@
                         Elaboração de relatórios;<br>
                         Organização de arquivos;<br>
                         <br>
-
                      </div>
                  </div>
                  <div id="bolinha">
@@ -258,8 +194,6 @@
                         Auxilio na elaboração de projetos;<br>
                         Elaboração de manuais de processos internos;<br>
                         Auxilio ao setor de suporte técnico; <br>
-                         
-
                     </div>
                 </div>
                 <div id="bolinha">
@@ -275,12 +209,11 @@
                         Elaboração de fluxogramas; <br>
                         Implementação de testes;<br>
                         Desenvolvimento de Backlog, oganização de sprints e utilização do kamban (Azure DEVOPS);<br>
-
                     </div>
                 </div>
             </div>
-
         </div>
+    </div>
         <div id="fundo5">
                 <div class="container">
                     <div id="downloadCurriculo">
@@ -290,13 +223,9 @@
                             <input type="button" value="Clique para fazer o download" class="btn btn-outline-light ">
                     </a>
                     </div>
-
-                </div>
-
+               </div>
         </div>
-
+        <div id="back-top" class="top-link" > <a href="#navbar"><img src="lib/img/logoG1.png" alt=""></a></div>
 </body>
-
-
 
 </html> 
